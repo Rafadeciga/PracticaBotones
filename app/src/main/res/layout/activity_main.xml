@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Boton 1 "
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="@color/material_dynamic_primary30"
+            android:layout_margin="20dp"
+            android:layout_gravity="center">
+
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Boton 2"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:background="#34E80C"
+            android:layout_margin="20dp"
+            android:layout_gravity="center">
+
+        </Button>
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo_boton"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter">
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo_android"
+            android:background="#58f573"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter">
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ChekBoxes"
+            android:textSize="30sp"
+            android:textColor="#3b3f41"
+            android:gravity="center"
+            android:layout_margin="20sp">
+        </TextView>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="checkBox1"
+            android:textSize="24sp"
+            android:checked="true">
+        </CheckBox>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="checkBox2"
+            android:textSize="24sp"
+            android:checked="true">
+        </CheckBox>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="checkBox3"
+            android:textSize="24sp"
+            android:checked="true">
+        </CheckBox>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="checkBox4"
+            android:textSize="24sp"
+            android:checked="true">
+        </CheckBox>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="checkBox5"
+            android:textSize="24sp"
+            android:checked="true">
+        </CheckBox>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Botón de radio"
+            android:textSize="30sp"
+            android:textColor="#3b3f41"
+            android:gravity="center"
+            android:layout_margin="20sp">
+        </TextView>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Botón de radio1"
+                android:textSize="24sp">
+            </RadioButton>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Botón de radio2"
+                android:textSize="24sp">
+            </RadioButton>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Botón de radio3"
+                android:textSize="24sp">
+            </RadioButton>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Botónes de Activación"
+            android:textSize="30sp"
+            android:textColor="#3b3f41"
+            android:gravity="center"
+            android:layout_margin="20sp">
+        </TextView>
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Botón de activación "
+            android:textOff="Apagado "
+            android:textOn="Encendido">
+
+        </ToggleButton>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Switches"
+            android:textSize="30sp"
+            android:textColor="#3b3f41"
+            android:gravity="center"
+            android:layout_margin="20sp">
+        </TextView>
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Switch1"
+            android:textSize="24sp"
+            android:enabled="true">
+        </Switch>
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Switch2"
+            android:textSize="24sp"
+            android:enabled="true">
+        </Switch>
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Switch3"
+            android:textSize="24sp"
+            android:enabled="true">
+        </Switch>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="chips"
+            android:textSize="30sp"
+            android:textColor="#3b3f41"
+            android:gravity="center"
+            android:layout_margin="20sp">
+        </TextView>
+
+        <com.google.android.material.chip.ChipGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:singleSelection="true">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:gravity="bottom"
+                android:text="chip 1"
+                android:textSize="20sp"
+                app:checkedIcon="@android:drawable/btn_star_big_on"
+                app:chipIcon="@android:drawable/ic_menu_compass">
+
+            </com.google.android.material.chip.Chip>
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:gravity="center"
+                android:text="chip 2"
+                android:textSize="20sp"
+                app:checkedIcon="@android:drawable/btn_dialog">
+
+            </com.google.android.material.chip.Chip>
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="chip 3"
+                android:textSize="20sp">
+
+            </com.google.android.material.chip.Chip>
+        </com.google.android.material.chip.ChipGroup>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Botónes de opción flotante"
+            android:textSize="30sp"
+            android:textColor="#3b3f41"
+            android:gravity="center"
+            android:layout_margin="20sp">
+        </TextView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/ic_launcher_foreground">
+
+        </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/ic_launcher_foreground">
+
+        </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Extendido"
+            android:src="@drawable/ic_launcher_foreground"
+            android:layout_gravity="right">
+
+        </com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton>
+    </LinearLayout>
+
+
+</ScrollView>
